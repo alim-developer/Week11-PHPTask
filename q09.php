@@ -4,18 +4,22 @@
 
 class a {
 
-     protected $b = 'Əla!';
+    protected $b = 'Əla!';
 
-     function b()
-     {
-        return $this->b;
-     }
+    function b()
+    {
+      	return $this->b;
+      
+    }
 }
 
 class b extends a {
-
+	function __construct(){
+		echo $this->b;
+	}
 }
 
+$c = new b;
 
 
 

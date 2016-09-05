@@ -28,7 +28,7 @@
 
 //4-cü $x-in dəyəri nə olacaq?
  $x = 3 + "15%" + "$25";  
- echo $x;
+ echo $x; //Niye?
 
 
 
